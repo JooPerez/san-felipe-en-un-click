@@ -47,7 +47,7 @@ function initMap(){
           contentString1
         ],
         [
-          "Clinica Sanchez Solis",
+          "Clinica Vargas",
           21.476601682612448,
           -101.21584176485673,
           "img/DJPSS.svg",

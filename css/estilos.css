@@ -22,24 +22,68 @@ body {
     text-align: center;
     margin-bottom: 60px;
 }
+/* menu */
+
 
 /* Header */
 
 header {
     width: 100%;
     height: 600px;
-    background: #bc4e9c;
+    background: hsla(24, 91%, 49%, 0.904);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/07eaa420d01f58f08f70fbb32a42bea1--san-felipe-guanajuato.jpg);
+    background: -webkit-linear-gradient(to right, hsla(214, 80%, 61%, 0.459), hsla(29, 98%, 51%, 0.877)), url(../img/07eaa420d01f58f08f70fbb32a42bea1--san-felipe-guanajuato.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/07eaa420d01f58f08f70fbb32a42bea1--san-felipe-guanajuato.jpg);
+    background: linear-gradient(to right, hsla(234, 87%, 57%, 0.459), hsla(24, 89%, 50%, 0.664)), url(../img/07eaa420d01f58f08f70fbb32a42bea1--san-felipe-guanajuato.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
+/*menu nav*/
+.hamburguer{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
 
-nav{
+.menu-navegacion{
+    position: fixed;
+    top: 0;
+    width: 30vw;
+    height: 100%;
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
+    /* 02 */
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    /* 028 */
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 0;
+    transform: translateX(110%);
+    transition:transform 0.3s ease-in-out;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.spread{
+    transform: translateX(0);
+}
+
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*nav{
     text-align: right;
     padding: 30px 50px 0 0;
 }
@@ -53,7 +97,9 @@ nav > a{
 
 nav > a:hover{
     text-decoration: underline;
-}
+}*/
+
+
 
 header .textos-header{
     display: flex;
@@ -94,7 +140,7 @@ header .textos-header{
 
 .contenido-slider1{
     width: 100%;
-    height: 600px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -116,12 +162,13 @@ header .textos-header{
     background: url(../img/android-chrome-512x512.png);
 }
 
+
 .contenido-slider1> img{
-    width: 500px;
+    width: 300px;
 }
 
 .contenido-slider1 > div{
-    width: 40%;
+    width: 60%;
 }
 
 .contenido-slider1 h2{
@@ -699,8 +746,8 @@ main .sobre-nosotros{
 }
 
 .imagen-port{
-    width: 24%;
-    margin-bottom: 10px;
+    width: 20%;
+    margin-bottom: 5px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -1011,4 +1058,5 @@ main .sobre-nosotros{
     .titulo-final{
         font-size: 20px;
     }
+   
 }

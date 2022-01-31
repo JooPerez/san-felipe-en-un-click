@@ -13,7 +13,7 @@ function initMap(){
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Cantina Pajaros</h1>' +
     '<div id="bodyContent">' +
-    '<div class="model-conteiner"><a href="https://en.wikipedia.org/w/index.php?title=Uluru"><img src="img/android-chrome-512x512.png" width="150" height="150"></a></div>' +
+    '<div class="model-conteiner"><a href="https://en.wikipedia.org/w/index.php?title=Uluru"><img src="svg/pajaros.svg" pasition="center" width="150" height="150"></a></div>' +
     "<p><b>Cantina Pajaros</b>, also referred to as <b>Ayers Rock</b>, is a large " +
     "sandstone rock formation in the southern part of the " +
     "Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) " +
